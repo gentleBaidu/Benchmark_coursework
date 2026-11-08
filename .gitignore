@@ -1,0 +1,7 @@
+data/cache/
+data/*.xlsx
+data/*.csv
+data/cookie.txt
+__pycache__/
+*.pyc
+
