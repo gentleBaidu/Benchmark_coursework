@@ -1,0 +1,28 @@
+{
+  "subject": "历史",
+  "dataset_version": "history_usable_text_v1_20261109",
+  "source_name": "usable_text(2).jsonl",
+  "count": 1140,
+  "answer_distribution": {
+    "B": 314,
+    "D": 253,
+    "A": 277,
+    "C": 296
+  },
+  "transformation": "id -> sample_id with HIS- prefix; stem -> question; options and answers unchanged; answers separated from inputs",
+  "validation": "structure and ID uniqueness checked; no subject expert answer verification or missing-image semantic review performed",
+  "files": {
+    "answer_key.jsonl": {
+      "sha256": "4f27d8dc6aefac32a3cb82565e657b3b1b7ab5c069d7e7bcfb5b1b409fb53e69",
+      "bytes": 113766
+    },
+    "evaluation_inputs.jsonl": {
+      "sha256": "e55d70c23c502c1d350e9eee6f7b77ccdfa78505a1ad5ff15eec348826964f9e",
+      "bytes": 372547
+    },
+    "source.jsonl": {
+      "sha256": "bb41bae699de1caefd06c576a520051e960d107b1eb16c4ddafdf59ed6429c59",
+      "bytes": 941955
+    }
+  }
+}

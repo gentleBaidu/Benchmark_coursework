@@ -1,0 +1,24 @@
+{
+  "model": "qwen3:1.7b",
+  "think": "on",
+  "scoring_protocol": "politics-answer-extraction-v2",
+  "selected_count": 1087,
+  "attempted_count": 1087,
+  "pending_count": 0,
+  "correct_count": 964,
+  "status_counts": {
+    "ok": 1020,
+    "truncated": 13,
+    "invalid": 54
+  },
+  "accuracy": 0.8868445262189513,
+  "format_compliant_count": 149,
+  "format_compliance_rate": 0.13707451701931922,
+  "accuracy_denominator": "attempted_count; invalid/truncated/error count as incorrect",
+  "full_dataset": true,
+  "complete_without_api_errors": true,
+  "wall_seconds_latest_attempts": 5003.826000000002,
+  "output_tokens_latest_attempts": 861227,
+  "updated_at": "2026-11-09T08:34:23.781605+00:00",
+  "note": "允许附带解析的明确单选答案；内容准确率与格式合规率分开统计。候选答案未经专家逐题核验。"
+}

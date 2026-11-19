@@ -1,0 +1,25 @@
+{
+  "model": "qwen3:1.7b",
+  "think": "on",
+  "subject": "地理",
+  "scoring_protocol": "politics-answer-extraction-v2",
+  "selected_count": 185,
+  "attempted_count": 185,
+  "pending_count": 0,
+  "correct_count": 147,
+  "status_counts": {
+    "ok": 174,
+    "truncated": 8,
+    "invalid": 3
+  },
+  "accuracy": 0.7945945945945946,
+  "format_compliant_count": 56,
+  "format_compliance_rate": 0.3027027027027027,
+  "accuracy_denominator": "attempted_count; invalid/truncated/error count as incorrect",
+  "full_dataset": true,
+  "complete_without_api_errors": true,
+  "wall_seconds_latest_attempts": 919.936,
+  "output_tokens_latest_attempts": 159186,
+  "updated_at": "2026-11-09T10:13:44.748721+00:00",
+  "note": "允许附带解析的明确单选答案；内容准确率与格式合规率分开统计。候选答案未经专家逐题核验。"
+}

@@ -1,0 +1,43 @@
+{
+  "subject": "地理",
+  "dataset_version": "geography_text_v1_20261109",
+  "source_archive_name": "GeoBench_初中地理_中文完整版.zip",
+  "source_member": "GeoBench_初中地理_中文完整版/data/questions_benchmark_ready.jsonl",
+  "source_member_sha256": "2a69109bdbe0272aecdb8a7401a3aa9acea85237018e0714a95adb48dee261f4",
+  "source_total": 1200,
+  "source_answered": 968,
+  "source_missing_answers": 232,
+  "included_text_count": 185,
+  "excluded_from_answered": {
+    "requires_image_or_nontext": 783
+  },
+  "answer_distribution": {
+    "C": 37,
+    "D": 45,
+    "A": 45,
+    "B": 58
+  },
+  "group_count": 125,
+  "with_shared_material": 105,
+  "with_text_tables": 10,
+  "transformations": [
+    "Concatenate shared_stem_text and stem_text, preserving existing table text.",
+    "Remove only matching leading option labels; preserve option order and answers.",
+    "Keep only text-only benchmark-ready records; screen media fields and HTML image tags.",
+    "Separate answers and provenance from model inputs."
+  ],
+  "limitations": [
+    "Source answers were extracted from images with OCR plus rules; not independently expert-verified.",
+    "Text-only subset; does not measure map/image understanding or performance on all 1200 items."
+  ],
+  "files": {
+    "answer_key.jsonl": {
+      "sha256": "c3a72a0c64faac2315d436b625c52fcf7fb4a0392568b00cb866141272600e6c",
+      "bytes": 57535
+    },
+    "evaluation_inputs.jsonl": {
+      "sha256": "eed6b9e51139e3e85740553e2cef8f86fbb92069150416d788e8ff94b1a08ef9",
+      "bytes": 73473
+    }
+  }
+}
