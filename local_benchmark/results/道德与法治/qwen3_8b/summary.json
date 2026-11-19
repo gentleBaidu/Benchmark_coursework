@@ -1,0 +1,24 @@
+{
+  "model": "qwen3:8b",
+  "think": "on",
+  "subject": "道德与法治",
+  "scoring_protocol": "politics-answer-extraction-v2",
+  "selected_count": 1087,
+  "attempted_count": 378,
+  "pending_count": 709,
+  "correct_count": 364,
+  "status_counts": {
+    "ok": 369,
+    "truncated": 9
+  },
+  "accuracy": 0.9629629629629629,
+  "format_compliant_count": 369,
+  "format_compliance_rate": 0.9761904761904762,
+  "accuracy_denominator": "attempted_count; invalid/truncated/error count as incorrect",
+  "full_dataset": true,
+  "complete_without_api_errors": false,
+  "wall_seconds_latest_attempts": 4194.996999999999,
+  "output_tokens_latest_attempts": 236193,
+  "updated_at": "2026-11-10T09:10:22.296098+00:00",
+  "note": "允许附带解析的明确单选答案；内容准确率与格式合规率分开统计。候选答案未经专家逐题核验。"
+}
